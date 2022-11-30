@@ -1,37 +1,34 @@
 {
   "schemaVersion": 1,
-  "id": "modid",
+  "id": "letitsnow",
   "version": "${version}",
 
-  "name": "Example Mod",
+  "name": "Let It Snow",
   "description": "${description}",
   "authors": [
-    "Me!"
+    "Shateq"
   ],
   "contact": {
     "homepage": "https://fabricmc.net/",
     "sources": "https://github.com/FabricMC/fabric-example-mod"
   },
 
-  "license": "CC0-1.0",
-  "icon": "assets/modid/icon.png",
+  "license": "MIT",
+  "icon": "icon.png",
 
-  "environment": "*",
+  "environment": "client",
   "entrypoints": {
-    "main": [
-      "net.fabricmc.example.ExampleMod"
+    "client": [
+      "shateq.letitsnow.fabric.LetItSnowMod"
     ]
   },
   "mixins": [
-    "modid.mixins.json"
+    "letitsnow.mixins.json"
   ],
 
   "depends": {
     "fabricloader": ">=0.14.10",
     "fabric-api": "*",
     "minecraft": "~1.19"
-  },
-  "suggests": {
-    "modmenu": "*"
   }
 }

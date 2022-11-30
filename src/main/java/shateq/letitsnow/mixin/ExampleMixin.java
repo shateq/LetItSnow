@@ -1,4 +1,4 @@
-package net.fabricmc.example.mixin;
+package shateq.letitsnow.mixin;
 
 import net.fabricmc.example.ExampleMod;
 import net.minecraft.client.gui.screen.TitleScreen;

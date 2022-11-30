@@ -6,12 +6,4 @@ pluginManagement {
     }
 }
 
-dependencyResolutionManagement {
-    repositoriesMode.set(RepositoriesMode.PREFER_PROJECT)
-
-    repositories {
-        mavenCentral()
-    }
-}
-
-rootProject.name = "examplemod"
+rootProject.name = "letitsnow"

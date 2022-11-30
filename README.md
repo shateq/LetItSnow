@@ -1,11 +1,8 @@
-# examplemod Fabric
+# Let It Snow
 
-How to X?
-Maybe there will be some explanation in the future if interested
+action status badge
 
-## Mod Badges?
-
-See: https://github.com/shateq/shateq/blob/main/BADGES.md
+Winter Weathed Mod for Fabric
 
 <a href="https://modrinth.com/mod/fabric-api">
 <img src="https://i.imgur.com/Ol1Tcf8.png" height="64">
@@ -15,10 +12,8 @@ See: https://github.com/shateq/shateq/blob/main/BADGES.md
 
 - https://modrinth.com/mods
 
-## Setup
-
-For setup instructions please see the [fabric wiki page](https://fabricmc.net/wiki/tutorial:setup) that relates to the IDE that you are using.
+- curseforge
 
 ## License
 
-This template is available under the CC0 license. Feel free to learn from it and incorporate it in your own projects.
+Licensed under MIT. Check [LICENSE](LICENSE) file for details.
