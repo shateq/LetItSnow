@@ -7,14 +7,13 @@ plugins {
 
 version = "1.0.0"
 group = "shateq.mods"
-base.archivesName.set("letitsnow")
+base.archivesName.set("letitsnow-$version")
 description = "Winter Weather Mod for Fabric"
 
 dependencies {
     minecraft("com.mojang:minecraft:${project.extra["mc"]}")
     mappings("net.fabricmc:yarn:${project.extra["yarn"]}:v2")
     //mappings(loom.officialMojangMappings())
-
     modImplementation("net.fabricmc:fabric-loader:${project.extra["loader"]}")
     modImplementation("net.fabricmc.fabric-api:fabric-api:${project.extra["fapi"]}")
 }
@@ -28,7 +27,7 @@ loom {
 tasks {
     jar {
         from("LICENSE") {
-            rename { "${it}_$archiveBaseName" }
+            rename { "${it}_${project.name}" }
         }
     }
     compileJava {

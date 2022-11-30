@@ -2,18 +2,10 @@
 
 action status badge
 
-Winter Weathed Mod for Fabric
+Winter Weathed Mod for Fabric. Another long story.
 
-<a href="https://modrinth.com/mod/fabric-api">
-<img src="https://i.imgur.com/Ol1Tcf8.png" height="64">
-</a>
-
-## Download
+Download
 
 - https://modrinth.com/mods
 
 - curseforge
-
-## License
-
-Licensed under MIT. Check [LICENSE](LICENSE) file for details.
